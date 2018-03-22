@@ -1,0 +1,23 @@
+
+.buttonSpacingTop input{
+  margin-left : 5px;
+}
+
+#addButton {
+  margin-top: 5px;
+}
+.eventTableRow {
+  cursor: pointer;
+}
+#runBackLength {
+  margin-left:8px;
+}
+
+div#runBackForm.container-blue{
+  margin-bottom : 10px;
+}
+
+#runBackForm div.form.form-horizontal {
+  margin-bottom : 5px;
+  margin-left : 5px;
+}

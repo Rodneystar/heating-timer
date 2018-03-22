@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [ "env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions", "ie>=7"],
+          "node" : "current"
+        }
+      }
+    ], [
+      "react"
+    ]
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-class-properties"
+  ]
+}
