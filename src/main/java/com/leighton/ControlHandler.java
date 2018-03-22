@@ -32,8 +32,6 @@ public class ControlHandler implements HttpHandler {
         OutputStream os = exchange.getResponseBody();
         os.write(response.getBytes());
         os.close();
-
-
     }
 
     synchronized void actionQuery(String q) {
